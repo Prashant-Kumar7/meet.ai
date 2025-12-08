@@ -5,6 +5,8 @@ import { Input } from "@/components/ui/input";
 import { authClient } from "@/lib/auth-client";
 import { useState } from "react";
 
+
+
 export default function Home() {
 
   const {data: session , isPending} = authClient.useSession() 
